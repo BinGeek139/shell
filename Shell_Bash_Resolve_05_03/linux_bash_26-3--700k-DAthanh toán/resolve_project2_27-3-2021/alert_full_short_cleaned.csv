@@ -1,0 +1,149 @@
+05/30,19:09:10.917356,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+05/30,19:09:10.918155,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+05/30,19:09:28.472094,2,Potentially Bad Traffic,ET DNS DNS Query to a .tk domain - Likely Hostile,UDP,192.168.88.10,1029,4.2.2.3,53
+10/09,06:09:07.402294,1,A Network Trojan was Detected,ET INFO JAVA - Java Archive Download By Vulnerable Client,TCP,46.37.185.21,80,192.168.115.10,1046
+06/18,12:13:57.405165,3,Misc activity,ICMP Destination Unreachable Communication Administratively Prohibited,ICMP,88.75.231.254,unspecified,192.168.18.10,unspecified
+06/18,12:14:03.527223,3,Misc activity,ICMP Destination Unreachable Port Unreachable,ICMP,79.116.99.247,unspecified,192.168.18.10,unspecified
+01/11,17:44:44.913554,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+01/11,17:44:44.914403,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+01/11,17:45:03.787663,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.30.10,1034,239.255.255.250,1900
+01/11,17:45:06.813110,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.30.10,1034,239.255.255.250,1900
+01/11,17:45:06.778525,2,Potentially Bad Traffic,ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain,TCP,192.168.30.10,1037,178.208.90.42,80
+01/11,17:45:06.780746,2,Potentially Bad Traffic,ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain,TCP,192.168.30.10,1038,178.208.90.42,80
+01/11,17:45:07.269511,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack,TCP,173.194.75.95,443,192.168.30.10,1042
+01/11,17:45:07.269511,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack,TCP,173.194.75.95,443,192.168.30.10,1042
+01/11,17:45:07.183863,2,Potentially Bad Traffic,ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain,TCP,192.168.30.10,1037,178.208.90.42,80
+01/11,17:45:07.413832,3,Misc activity,ET INFO JAVA - ClassID,TCP,178.208.75.222,80,192.168.30.10,1040
+01/11,17:45:07.413832,2,Potentially Bad Traffic,ET CURRENT_EVENTS Blackhole Java applet with obfuscated URL Jan 21 2012,TCP,178.208.75.222,80,192.168.30.10,1040
+01/11,17:45:07.413832,2,Potentially Bad Traffic,ET CURRENT_EVENTS Blackhole Java applet with obfuscated URL Dec 03 2012,TCP,178.208.75.222,80,192.168.30.10,1040
+01/11,17:45:10.032547,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.30.10,1034,239.255.255.250,1900
+01/11,17:45:48.285370,2,Potentially Bad Traffic,ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain,TCP,192.168.30.10,1038,178.208.90.42,80
+01/11,17:45:48.482059,2,Potentially Bad Traffic,ET POLICY Vulnerable Java Version 1.6.x Detected,TCP,192.168.30.10,1049,178.208.75.222,80
+01/11,17:45:48.482059,2,Potentially Bad Traffic,ET CURRENT_EVENTS SUSPICIOUS Java Request to ChangeIP Dynamic DNS Domain,TCP,192.168.30.10,1049,178.208.75.222,80
+01/11,17:45:48.482059,1,A Network Trojan was Detected,ET CURRENT_EVENTS Possible Blackhole EK Jar Download URI Struct,TCP,192.168.30.10,1049,178.208.75.222,80
+01/11,17:45:48.611699,2,Potentially Bad Traffic,ET INFO JAR Size Under 30K Size - Potentially Hostile,TCP,178.208.75.222,80,192.168.30.10,1049
+01/11,17:45:48.611699,2,Potentially Bad Traffic,ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits,TCP,178.208.75.222,80,192.168.30.10,1049
+01/11,17:45:48.611699,1,A Network Trojan was Detected,ET CURRENT_EVENTS Blackhole Java Exploit Recent Jar (4),TCP,178.208.75.222,80,192.168.30.10,1049
+01/11,17:45:48.611699,2,Potentially Bad Traffic,ET CURRENT_EVENTS SUSPICIOUS JAR Download by Java UA with non JAR EXT matches various EKs,TCP,178.208.75.222,80,192.168.30.10,1049
+01/11,17:45:48.611699,1,A Network Trojan was Detected,ET INFO JAVA - Java Archive Download By Vulnerable Client,TCP,178.208.75.222,80,192.168.30.10,1049
+01/11,17:45:49.485642,2,Potentially Bad Traffic,ET POLICY Vulnerable Java Version 1.6.x Detected,TCP,192.168.30.10,1054,178.208.75.222,80
+01/11,17:45:49.485642,2,Potentially Bad Traffic,ET CURRENT_EVENTS SUSPICIOUS Java Request to ChangeIP Dynamic DNS Domain,TCP,192.168.30.10,1054,178.208.75.222,80
+01/11,17:45:49.485642,1,A Network Trojan was Detected,ET CURRENT_EVENTS BHEK Payload Download (java only alternate method may overlap with 2017454),TCP,192.168.30.10,1054,178.208.75.222,80
+01/11,17:45:49.485642,1,A Network Trojan was Detected,ET CURRENT_EVENTS Blackhole request for Payload,TCP,192.168.30.10,1054,178.208.75.222,80
+01/11,17:45:49.960037,3,Misc activity,ET INFO EXE - Served Attached HTTP,TCP,178.208.75.222,80,192.168.30.10,1054
+01/11,17:45:49.960037,2,Potentially Bad Traffic,ET CURRENT_EVENTS DRIVEBY Blackhole - Payload Download - info.exe,TCP,178.208.75.222,80,192.168.30.10,1054
+01/11,17:45:49.960037,1,Potential Corporate Privacy Violation,ET POLICY PE EXE or DLL Windows file download HTTP,TCP,178.208.75.222,80,192.168.30.10,1054
+01/11,17:45:49.960037,1,A Network Trojan was Detected,ET POLICY Java EXE Download,TCP,178.208.75.222,80,192.168.30.10,1054
+01/11,17:45:49.960037,1,A Network Trojan was Detected,ET TROJAN Java EXE Download by Vulnerable Version - Likely Driveby,TCP,178.208.75.222,80,192.168.30.10,1054
+01/11,17:45:50.525760,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack,TCP,87.240.143.247,443,192.168.30.10,1056
+01/11,17:45:50.525760,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack,TCP,87.240.143.247,443,192.168.30.10,1056
+01/11,17:45:51.043365,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack,TCP,23.1.143.139,443,192.168.30.10,1059
+01/11,17:45:51.043365,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack,TCP,23.1.143.139,443,192.168.30.10,1059
+01/11,17:45:51.066443,3,Misc activity,INFO web bug 0x0 gif attempt,TCP,184.31.111.144,80,192.168.30.10,1060
+01/11,17:45:51.286577,3,Misc activity,INFO web bug 0x0 gif attempt,TCP,184.31.111.144,80,192.168.30.10,1060
+01/11,17:45:51.700399,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack,TCP,23.1.130.110,443,192.168.30.10,1064
+01/11,17:45:51.700399,1,Potential Corporate Privacy Violation,ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack,TCP,23.1.130.110,443,192.168.30.10,1064
+01/11,17:45:53.776321,1,A Network Trojan was Detected,ET CURRENT_EVENTS Blackhole request for Payload,TCP,192.168.30.10,1040,178.208.75.222,80
+01/11,17:45:53.920733,1,A Network Trojan was Detected,ET CURRENT_EVENTS BlackHole 2 PDF Exploit,TCP,178.208.75.222,80,192.168.30.10,1040
+01/11,17:45:53.920733,2,Potentially Bad Traffic,ET WEB_CLIENT PDF With Embedded File,TCP,178.208.75.222,80,192.168.30.10,1040
+01/11,17:45:53.920733,1,Attempted User Privilege Gain,ET CURRENT_EVENTS DRIVEBY PDF Containing Subform with JavaScript,TCP,178.208.75.222,80,192.168.30.10,1040
+01/11,17:45:53.873797,1,Potential Corporate Privacy Violation,ET POLICY Outdated Windows Flash Version IE,TCP,192.168.30.10,1066,178.208.75.222,80
+01/11,17:45:53.873797,1,A Network Trojan was Detected,ET CURRENT_EVENTS Blackhole request for Payload,TCP,192.168.30.10,1066,178.208.75.222,80
+01/11,17:46:07.708675,1,A Network Trojan was Detected,ET TROJAN System Progressive Detection FakeAV (AMD),TCP,192.168.30.10,1067,103.4.225.41,80
+01/11,17:46:08.596761,2,Potentially Bad Traffic,ET DNS DNS Query to a .tk domain - Likely Hostile,UDP,192.168.30.10,1030,4.2.2.3,53
+01/11,17:46:08.792407,2,Potentially Bad Traffic,DNS SPOOF query response with TTL of 1 min. and no authority,UDP,4.2.2.3,53,192.168.30.10,1030
+01/11,17:46:08.909868,1,A Network Trojan was Detected,ET TROJAN System Progressive Detection FakeAV (AMD),TCP,192.168.30.10,1068,5.104.106.56,80
+01/11,17:46:08.909868,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.tk domain,TCP,192.168.30.10,1068,5.104.106.56,80
+01/11,17:46:09.020469,3,Misc activity,ET INFO EXE - Served Attached HTTP,TCP,5.104.106.56,80,192.168.30.10,1068
+01/11,17:46:09.020469,1,Potential Corporate Privacy Violation,ET POLICY PE EXE or DLL Windows file download HTTP,TCP,5.104.106.56,80,192.168.30.10,1068
+01/18,13:12:40.163420,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+01/18,13:12:40.164163,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+01/18,13:13:01.808694,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.51.10,1035,239.255.255.250,1900
+01/18,13:13:05.282130,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.51.10,1035,239.255.255.250,1900
+01/18,13:13:08.297255,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.51.10,1035,239.255.255.250,1900
+01/18,13:13:11.701149,3,Misc activity,ET INFO EXE - Served Attached HTTP,TCP,184.72.230.192,80,192.168.51.10,1039
+01/18,13:13:11.701149,1,Potential Corporate Privacy Violation,ET POLICY PE EXE or DLL Windows file download HTTP,TCP,184.72.230.192,80,192.168.51.10,1039
+01/13,04:22:51.172897,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+01/13,04:22:51.216607,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+01/13,04:23:07.427257,2,Potentially Bad Traffic,ET DNS DNS Query to a .tk domain - Likely Hostile,UDP,192.168.50.10,1029,4.2.2.3,53
+01/13,04:23:07.665561,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.tk domain,TCP,192.168.50.10,1030,93.170.52.21,80
+01/13,04:23:08.195591,3,Misc activity,INFO web bug 0x0 gif attempt,TCP,173.194.37.3,80,192.168.50.10,1031
+01/13,04:23:08.515455,3,Misc activity,ET INFO EXE - Served Attached HTTP,TCP,208.131.138.217,80,192.168.50.10,1034
+01/13,04:23:08.515455,2,Potentially Bad Traffic,ET INFO SUSPICIOUS Dotted Quad Host MZ Response,TCP,208.131.138.217,80,192.168.50.10,1034
+01/13,04:23:08.515455,1,Potential Corporate Privacy Violation,ET POLICY PE EXE or DLL Windows file download HTTP,TCP,208.131.138.217,80,192.168.50.10,1034
+01/13,04:23:09.895891,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.50.10,1038,239.255.255.250,1900
+01/13,04:23:12.907267,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.50.10,1038,239.255.255.250,1900
+01/13,04:23:15.922748,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.50.10,1038,239.255.255.250,1900
+02/04,15:42:43.558039,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+02/04,15:42:43.560813,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+02/04,15:43:10.151040,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.71.10,1062,239.255.255.250,1900
+02/04,15:43:13.141702,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.71.10,1062,239.255.255.250,1900
+02/04,15:43:15.027952,3,Misc activity,INFO web bug 0x0 gif attempt,TCP,216.59.38.124,80,192.168.71.10,1084
+02/04,15:43:16.157074,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.71.10,1062,239.255.255.250,1900
+02/04,15:43:16.882286,1,Potential Corporate Privacy Violation,ET POLICY PE EXE or DLL Windows file download HTTP,TCP,92.51.180.142,80,192.168.71.10,1104
+09/17,00:40:12.582790,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+09/17,00:40:12.583450,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+09/17,00:40:29.232513,2,Potentially Bad Traffic,ET DNS DNS Query for Suspicious .cz.cc Domain,UDP,192.168.95.10,1029,4.2.2.3,53
+09/17,00:40:29.119610,2,Potentially Bad Traffic,ET CURRENT_EVENTS Malicious 1px iframe related to Mass Wordpress Injections,TCP,89.145.93.192,80,192.168.95.10,1030
+09/17,00:40:29.599063,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.cz.cc domain,TCP,192.168.95.10,1033,188.247.135.29,80
+09/17,00:40:29.908468,2,Potentially Bad Traffic,ET DNS DNS Query for Suspicious .cz.cc Domain,UDP,192.168.95.10,1029,4.2.2.3,53
+09/17,00:40:30.206672,1,A Network Trojan was Detected,ET CURRENT_EVENTS Likely Blackhole Exploit Kit Driveby ?page Download Secondary Request,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:30.206672,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.cz.cc domain,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:30.423081,1,A Network Trojan was Detected,ET CURRENT_EVENTS Blackhole Try App.title Catch - May 22nd 2012,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:30.423081,1,A Network Trojan was Detected,ET CURRENT_EVENTS RedKit/Sakura/CritX/SafePack/FlashPack applet + obfuscated URL Apr 10 2013,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:30.423081,2,Potentially Bad Traffic,ET CURRENT_EVENTS Blackhole landing page with malicious Java applet,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:32.004152,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.95.10,1037,239.255.255.250,1900
+09/17,00:40:32.391423,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.cz.cc domain,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:32.391423,2,Potentially Bad Traffic,ET TROJAN Potential Blackhole Exploit Pack Binary Load Request,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:32.558520,3,Misc activity,ET INFO EXE - Served Attached HTTP,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:32.558520,2,Potentially Bad Traffic,ET CURRENT_EVENTS DRIVEBY Blackhole - Payload Download - calc.exe,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:32.558520,1,Potential Corporate Privacy Violation,ET POLICY PE EXE or DLL Windows file download HTTP,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:35.210065,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.95.10,1037,239.255.255.250,1900
+09/17,00:40:35.047932,1,A Network Trojan was Detected,ET CURRENT_EVENTS Java/PDF Exploit kit initial landing,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:35.047932,1,A Network Trojan was Detected,ET CURRENT_EVENTS Blackhole PDF Payload Request,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:35.047932,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.cz.cc domain,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:35.230264,2,Misc Attack,ET INFO PDF embedded in XDP file (Possibly Malicious),TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:35.230264,2,Potentially Bad Traffic,ET WEB_CLIENT PDF With Embedded File,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:35.230264,1,A Network Trojan was Detected,ET CURRENT_EVENTS Blackhole qwe123 PDF,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:35.230264,1,Attempted User Privilege Gain,ET CURRENT_EVENTS DRIVEBY PDF Containing Subform with JavaScript,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:38.410878,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.95.10,1037,239.255.255.250,1900
+09/17,00:40:53.638937,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.cz.cc domain,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:53.638937,2,Potentially Bad Traffic,ET TROJAN Potential Blackhole Exploit Pack Binary Load Request,TCP,192.168.95.10,1034,31.31.74.37,80
+09/17,00:40:53.805794,3,Misc activity,ET INFO EXE - Served Attached HTTP,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:53.805794,2,Potentially Bad Traffic,ET CURRENT_EVENTS DRIVEBY Blackhole - Payload Download - contacts.exe,TCP,31.31.74.37,80,192.168.95.10,1034
+09/17,00:40:55.151186,3,Misc activity,INFO web bug 0x0 gif attempt,TCP,74.125.229.68,80,192.168.95.10,1042
+09/17,00:40:55.803527,1,Potential Corporate Privacy Violation,ET POLICY Outdated Windows Flash Version IE,TCP,192.168.95.10,1046,31.31.74.37,80
+09/17,00:40:55.803527,1,A Network Trojan was Detected,ET CURRENT_EVENTS DRIVEBY Blackhole Likely Flash Exploit Request /field.swf,TCP,192.168.95.10,1046,31.31.74.37,80
+09/17,00:40:55.803527,2,Potentially Bad Traffic,ET POLICY HTTP Request to a *.cz.cc domain,TCP,192.168.95.10,1046,31.31.74.37,80
+09/17,00:40:58.371183,2,Access to a Potentially Vulnerable Web Application,WEB-IIS view source via translate header,TCP,192.168.95.10,1045,89.208.34.116,80
+09/17,00:41:10.365203,1,A Network Trojan was Detected,ET TROJAN Suspicious User-Agent (IE),TCP,192.168.95.10,1054,188.229.88.234,80
+09/17,00:41:10.365203,1,A Network Trojan was Detected,ET TROJAN Suspicious UA (^IE,TCP,192.168.95.10,1054,188.229.88.234,80
+09/17,00:41:10.365203,1,A Network Trojan was Detected,ET TROJAN Trojan.Win32.A.FakeAV Reporting,TCP,192.168.95.10,1054,188.229.88.234,80
+09/17,00:41:10.365203,1,A Network Trojan was Detected,ET TROJAN Fake AV GET,TCP,192.168.95.10,1054,188.229.88.234,80
+09/17,00:41:11.284444,1,A Network Trojan was Detected,ET MALWARE Fake Wget User-Agent (wget 3.0) - Likely Hostile,TCP,192.168.95.10,1055,193.105.154.25,80
+09/17,00:41:32.772349,1,A Network Trojan was Detected,ET TROJAN Suspicious User-Agent (IE),TCP,192.168.95.10,1056,141.136.16.33,80
+09/17,00:41:32.772349,1,A Network Trojan was Detected,ET TROJAN Suspicious UA (^IE,TCP,192.168.95.10,1056,141.136.16.33,80
+09/17,00:41:32.772349,1,A Network Trojan was Detected,ET TROJAN Trojan.Win32.A.FakeAV Reporting,TCP,192.168.95.10,1056,141.136.16.33,80
+09/17,00:41:32.772349,1,A Network Trojan was Detected,ET TROJAN Fake AV GET,TCP,192.168.95.10,1056,141.136.16.33,80
+09/17,00:41:33.227583,1,A Network Trojan was Detected,ET MALWARE Fake Wget User-Agent (wget 3.0) - Likely Hostile,TCP,192.168.95.10,1057,89.46.251.133,80
+03/14,14:12:47.824665,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+03/14,14:12:47.825415,2,Potentially Bad Traffic,BAD-TRAFFIC same SRC/DST,UDP,0.0.0.0,68,255.255.255.255,67
+03/14,14:13:08.939018,1,Potential Corporate Privacy Violation,ET POLICY Outdated Windows Flash Version IE,TCP,192.168.52.10,1038,192.185.23.177,80
+03/14,14:13:09.216872,1,A Network Trojan was Detected,ET INFO SimpleTDS go.php (sid),TCP,192.168.52.10,1046,188.66.5.85,80
+03/14,14:13:09.676348,3,Misc activity,INFO web bug 0x0 gif attempt,TCP,173.194.127.162,80,192.168.52.10,1045
+03/14,14:13:14.804068,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.52.10,1053,239.255.255.250,1900
+03/14,14:13:15.234783,2,Potentially Bad Traffic,ET INFO DNS Query to a *.pw domain - Likely Hostile,UDP,192.168.52.10,1044,4.2.2.3,53
+03/14,14:13:15.434355,2,Potentially Bad Traffic,ET INFO HTTP Request to a *.pw domain,TCP,192.168.52.10,1055,67.196.50.144,80
+03/14,14:13:16.978528,2,Potentially Bad Traffic,ET INFO HTTP Request to a *.pw domain,TCP,192.168.52.10,1056,67.196.50.144,80
+03/14,14:13:17.870171,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.52.10,1053,239.255.255.250,1900
+03/14,14:13:21.163967,3,Detection of a Network Scan,SCAN UPnP service discover attempt,UDP,192.168.52.10,1053,239.255.255.250,1900
+03/14,14:13:22.494672,1,A Network Trojan was Detected,ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013,TCP,192.168.52.10,1057,67.196.50.144,80
+03/14,14:13:22.494672,1,Attempted User Privilege Gain,ET CURRENT_EVENTS NeoSploit - TDS,TCP,192.168.52.10,1057,67.196.50.144,80
+03/14,14:13:22.605477,2,Potentially Bad Traffic,ET INFO SUSPICIOUS Dotted Quad Host MZ Response,TCP,67.196.50.144,80,192.168.52.10,1057
+03/14,14:13:22.605477,1,Potential Corporate Privacy Violation,ET POLICY PE EXE or DLL Windows file download HTTP,TCP,67.196.50.144,80,192.168.52.10,1057
+03/14,14:13:22.605477,1,A Network Trojan was Detected,ET MALWARE Possible Windows executable sent when remote host claims to send html content,TCP,67.196.50.144,80,192.168.52.10,1057
+03/14,14:13:24.326630,1,A Network Trojan was Detected,ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013,TCP,192.168.52.10,1058,67.196.50.144,80
+03/14,14:13:24.326630,1,Attempted User Privilege Gain,ET CURRENT_EVENTS NeoSploit - TDS,TCP,192.168.52.10,1058,67.196.50.144,80
+03/14,14:13:24.530650,1,A Network Trojan was Detected,ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013,TCP,192.168.52.10,1059,67.196.50.144,80
+03/14,14:13:24.530650,1,Attempted User Privilege Gain,ET CURRENT_EVENTS NeoSploit - TDS,TCP,192.168.52.10,1059,67.196.50.144,80
+03/14,14:13:24.731076,1,A Network Trojan was Detected,ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013,TCP,192.168.52.10,1060,67.196.50.144,80

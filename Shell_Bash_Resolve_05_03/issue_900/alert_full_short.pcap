@@ -1,0 +1,963 @@
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+05/30-19:09:10.917356 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+05/30-19:09:10.918155 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:354
+Len: 326
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:2012811:2] ET DNS DNS Query to a .tk domain - Likely Hostile [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+05/30-19:09:28.472094 192.168.88.10:1029 -> 4.2.2.3:53
+UDP TTL:128 TOS:0x0 ID:78 IpLen:20 DgmLen:59
+Len: 31
+
+[**] [1:2014473:2] ET INFO JAVA - Java Archive Download By Vulnerable Client [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+10/09-06:09:07.402294 46.37.185.21:80 -> 192.168.115.10:1046
+TCP TTL:128 TOS:0x0 ID:656 IpLen:20 DgmLen:17365 DF
+***A**** Seq: 0x1AED842F  Ack: 0xF6B70780  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:485:4] ICMP Destination Unreachable Communication Administratively Prohibited [**]
+[Classification: Misc activity] [Priority: 3] 
+06/18-12:13:57.405165 88.75.231.254 -> 192.168.18.10
+ICMP TTL:53 TOS:0x0 ID:3315 IpLen:20 DgmLen:56
+Type:3  Code:13  DESTINATION UNREACHABLE: ADMINISTRATIVELY PROHIBITED,
+PACKET FILTERED
+** ORIGINAL DATAGRAM DUMP:
+192.168.18.10:1159 -> 88.75.231.254:16464
+UDP TTL:114 TOS:0x0 ID:3315 IpLen:20 DgmLen:44
+Len: 16  Csum: 61801
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+06/18-12:14:03.527223 79.116.99.247 -> 192.168.18.10
+ICMP TTL:116 TOS:0x0 ID:20963 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+192.168.18.10:1159 -> 79.116.99.247:16464
+UDP TTL:117 TOS:0x0 ID:3321 IpLen:20 DgmLen:44
+Len: 16  Csum: 32328
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:44:44.913554 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:44:44.914403 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:354
+Len: 326
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/11-17:45:03.787663 192.168.30.10:1034 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:73 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/11-17:45:06.813110 192.168.30.10:1034 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:166 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2018221:4] ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:06.778525 192.168.30.10:1037 -> 178.208.90.42:80
+TCP TTL:53 TOS:0x0 ID:46670 IpLen:20 DgmLen:388 DF
+***A**** Seq: 0x45756815  Ack: 0x72F2CBF4  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2018221:4] ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:06.780746 192.168.30.10:1038 -> 178.208.90.42:80
+TCP TTL:53 TOS:0x0 ID:2425 IpLen:20 DgmLen:388 DF
+***A**** Seq: 0x185F2842  Ack: 0x2DEC74C5  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2019416:3] ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:07.269511 173.194.75.95:443 -> 192.168.30.10:1042
+TCP TTL:45 TOS:0x0 ID:44068 IpLen:20 DgmLen:1470
+***A**** Seq: 0xD1CEF25D  Ack: 0x8BDCABA1  Win: 0x37DC  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2019415:3] ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:07.269511 173.194.75.95:443 -> 192.168.30.10:1042
+TCP TTL:45 TOS:0x0 ID:44068 IpLen:20 DgmLen:1470
+***A**** Seq: 0xD1CEF25D  Ack: 0x8BDCABA1  Win: 0x37DC  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2018221:4] ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:07.183863 192.168.30.10:1037 -> 178.208.90.42:80
+TCP TTL:53 TOS:0x0 ID:46673 IpLen:20 DgmLen:388 DF
+***AP*** Seq: 0x45756971  Ack: 0x72F2CE6C  Win: 0x40E8  TcpLen: 20
+
+[**] [1:2016360:1] ET INFO JAVA - ClassID [**]
+[Classification: Misc activity] [Priority: 3] 
+01/11-17:45:07.413832 178.208.75.222:80 -> 192.168.30.10:1040
+TCP TTL:128 TOS:0x0 ID:277 IpLen:20 DgmLen:16764 DF
+***A**** Seq: 0xA9D3C846  Ack: 0xC55D7E1F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2016242:5] ET CURRENT_EVENTS Blackhole Java applet with obfuscated URL Jan 21 2012 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:07.413832 178.208.75.222:80 -> 192.168.30.10:1040
+TCP TTL:128 TOS:0x0 ID:277 IpLen:20 DgmLen:16764 DF
+***A**** Seq: 0xA9D3C846  Ack: 0xC55D7E1F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2015978:6] ET CURRENT_EVENTS Blackhole Java applet with obfuscated URL Dec 03 2012 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:07.413832 178.208.75.222:80 -> 192.168.30.10:1040
+TCP TTL:128 TOS:0x0 ID:277 IpLen:20 DgmLen:16764 DF
+***A**** Seq: 0xA9D3C846  Ack: 0xC55D7E1F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/11-17:45:10.032547 192.168.30.10:1034 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:347 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2018221:4] ET INFO DYNAMIC_DNS HTTP Request to a *.ddns.name Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:48.285370 192.168.30.10:1038 -> 178.208.90.42:80
+TCP TTL:53 TOS:0x0 ID:2428 IpLen:20 DgmLen:388 DF
+***AP*** Seq: 0x185F299E  Ack: 0x2DEC76B2  Win: 0x40E8  TcpLen: 20
+
+[**] [1:2011582:38] ET POLICY Vulnerable Java Version 1.6.x Detected [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:48.482059 192.168.30.10:1049 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:9673 IpLen:20 DgmLen:371 DF
+***A**** Seq: 0xC72C3194  Ack: 0x54A50551  Win: 0x3CB8  TcpLen: 20
+[Xref => http://www.oracle.com/technetwork/java/javase/2col/6u85-bugfixes-2298235.html][Xref => http://javatester.org/version.html]
+
+[**] [1:2016581:2] ET CURRENT_EVENTS SUSPICIOUS Java Request to ChangeIP Dynamic DNS Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:48.482059 192.168.30.10:1049 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:9673 IpLen:20 DgmLen:371 DF
+***A**** Seq: 0xC72C3194  Ack: 0x54A50551  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2017140:7] ET CURRENT_EVENTS Possible Blackhole EK Jar Download URI Struct [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:48.482059 192.168.30.10:1049 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:9673 IpLen:20 DgmLen:371 DF
+***A**** Seq: 0xC72C3194  Ack: 0x54A50551  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2017639:2] ET INFO JAR Size Under 30K Size - Potentially Hostile [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:48.611699 178.208.75.222:80 -> 192.168.30.10:1049
+TCP TTL:128 TOS:0x0 ID:436 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x54A50551  Ack: 0xC72C32DF  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2017637:1] ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:48.611699 178.208.75.222:80 -> 192.168.30.10:1049
+TCP TTL:128 TOS:0x0 ID:436 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x54A50551  Ack: 0xC72C32DF  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2015759:7] ET CURRENT_EVENTS Blackhole Java Exploit Recent Jar (4) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:48.611699 178.208.75.222:80 -> 192.168.30.10:1049
+TCP TTL:128 TOS:0x0 ID:436 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x54A50551  Ack: 0xC72C32DF  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2016540:2] ET CURRENT_EVENTS SUSPICIOUS JAR Download by Java UA with non JAR EXT matches various EKs [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:48.611699 178.208.75.222:80 -> 192.168.30.10:1049
+TCP TTL:128 TOS:0x0 ID:436 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x54A50551  Ack: 0xC72C32DF  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2014473:2] ET INFO JAVA - Java Archive Download By Vulnerable Client [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:48.611699 178.208.75.222:80 -> 192.168.30.10:1049
+TCP TTL:128 TOS:0x0 ID:436 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x54A50551  Ack: 0xC72C32DF  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2011582:38] ET POLICY Vulnerable Java Version 1.6.x Detected [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:49.485642 192.168.30.10:1054 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:28929 IpLen:20 DgmLen:332 DF
+***A**** Seq: 0xAB6CFE18  Ack: 0x2D8C558A  Win: 0x3CB8  TcpLen: 20
+[Xref => http://www.oracle.com/technetwork/java/javase/2col/6u85-bugfixes-2298235.html][Xref => http://javatester.org/version.html]
+
+[**] [1:2016581:2] ET CURRENT_EVENTS SUSPICIOUS Java Request to ChangeIP Dynamic DNS Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:49.485642 192.168.30.10:1054 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:28929 IpLen:20 DgmLen:332 DF
+***A**** Seq: 0xAB6CFE18  Ack: 0x2D8C558A  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2017554:1] ET CURRENT_EVENTS BHEK Payload Download (java only alternate method may overlap with 2017454) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:49.485642 192.168.30.10:1054 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:28929 IpLen:20 DgmLen:332 DF
+***A**** Seq: 0xAB6CFE18  Ack: 0x2D8C558A  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2015872:5] ET CURRENT_EVENTS Blackhole request for Payload [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:49.485642 192.168.30.10:1054 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:28929 IpLen:20 DgmLen:332 DF
+***A**** Seq: 0xAB6CFE18  Ack: 0x2D8C558A  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+01/11-17:45:49.960037 178.208.75.222:80 -> 192.168.30.10:1054
+TCP TTL:128 TOS:0x0 ID:552 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x2D8C558A  Ack: 0xAB6CFF3C  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2014235:7] ET CURRENT_EVENTS DRIVEBY Blackhole - Payload Download - info.exe [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:49.960037 178.208.75.222:80 -> 192.168.30.10:1054
+TCP TTL:128 TOS:0x0 ID:552 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x2D8C558A  Ack: 0xAB6CFF3C  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:49.960037 178.208.75.222:80 -> 192.168.30.10:1054
+TCP TTL:128 TOS:0x0 ID:552 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x2D8C558A  Ack: 0xAB6CFF3C  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:2013037:4] ET POLICY Java EXE Download [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:49.960037 178.208.75.222:80 -> 192.168.30.10:1054
+TCP TTL:128 TOS:0x0 ID:552 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x2D8C558A  Ack: 0xAB6CFF3C  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2013036:2] ET TROJAN Java EXE Download by Vulnerable Version - Likely Driveby [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:49.960037 178.208.75.222:80 -> 192.168.30.10:1054
+TCP TTL:128 TOS:0x0 ID:552 IpLen:20 DgmLen:16713 DF
+***A**** Seq: 0x2D8C558A  Ack: 0xAB6CFF3C  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2019416:3] ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:50.525760 87.240.143.247:443 -> 192.168.30.10:1056
+TCP TTL:53 TOS:0x0 ID:24839 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x934A69D9  Ack: 0x4818E4E8  Win: 0x3908  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2019415:3] ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:50.525760 87.240.143.247:443 -> 192.168.30.10:1056
+TCP TTL:53 TOS:0x0 ID:24839 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x934A69D9  Ack: 0x4818E4E8  Win: 0x3908  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2019416:3] ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:51.043365 23.1.143.139:443 -> 192.168.30.10:1059
+TCP TTL:57 TOS:0x0 ID:4331 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xA8413698  Ack: 0x6982AA55  Win: 0x3908  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2019415:3] ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:51.043365 23.1.143.139:443 -> 192.168.30.10:1059
+TCP TTL:57 TOS:0x0 ID:4331 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xA8413698  Ack: 0x6982AA55  Win: 0x3908  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2925:3] INFO web bug 0x0 gif attempt [**]
+[Classification: Misc activity] [Priority: 3] 
+01/11-17:45:51.066443 184.31.111.144:80 -> 192.168.30.10:1060
+TCP TTL:57 TOS:0x0 ID:19470 IpLen:20 DgmLen:559 DF
+***AP*** Seq: 0x410EBE51  Ack: 0x5DBF98E2  Win: 0x3D2C  TcpLen: 20
+
+[**] [1:2925:3] INFO web bug 0x0 gif attempt [**]
+[Classification: Misc activity] [Priority: 3] 
+01/11-17:45:51.286577 184.31.111.144:80 -> 192.168.30.10:1060
+TCP TTL:57 TOS:0x0 ID:19471 IpLen:20 DgmLen:559 DF
+***AP*** Seq: 0x410EBE51  Ack: 0x5DBF98E2  Win: 0x3D2C  TcpLen: 20
+
+[**] [1:2019416:3] ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:51.700399 23.1.130.110:443 -> 192.168.30.10:1064
+TCP TTL:57 TOS:0x0 ID:2896 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x602004B2  Ack: 0x4B8DD28D  Win: 0x3908  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2019415:3] ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:51.700399 23.1.130.110:443 -> 192.168.30.10:1064
+TCP TTL:57 TOS:0x0 ID:2896 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x602004B2  Ack: 0x4B8DD28D  Win: 0x3908  TcpLen: 20
+[Xref => http://www.imperialviolet.org/2014/10/14/poodle.html][Xref => http://askubuntu.com/questions/537196/how-do-i-patch-workaround-sslv3-poodle-vulnerability-cve-2014-3566][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566][Xref => http://www.openssl.org/~bodo/ssl-poodle.pdf][Xref => http://blog.fox-it.com/2014/10/15/poodle/][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-3566]
+
+[**] [1:2015872:5] ET CURRENT_EVENTS Blackhole request for Payload [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:53.776321 192.168.30.10:1040 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:46856 IpLen:20 DgmLen:540 DF
+***A**** Seq: 0xC55D7E1F  Ack: 0xA9D5AEAA  Win: 0x40E8  TcpLen: 20
+
+[**] [1:2015804:3] ET CURRENT_EVENTS BlackHole 2 PDF Exploit [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:53.920733 178.208.75.222:80 -> 192.168.30.10:1040
+TCP TTL:128 TOS:0x0 ID:1103 IpLen:20 DgmLen:10090 DF
+***A**** Seq: 0xA9D5AEAA  Ack: 0xC55D8013  Win: 0xFFFF  TcpLen: 20
+[Xref => http://fortknoxnetworks.blogspot.com/2012/10/blackhhole-exploit-kit-v-20-url-pattern.html]
+
+[**] [1:2011507:6] ET WEB_CLIENT PDF With Embedded File [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:45:53.920733 178.208.75.222:80 -> 192.168.30.10:1040
+TCP TTL:128 TOS:0x0 ID:1103 IpLen:20 DgmLen:10090 DF
+***A**** Seq: 0xA9D5AEAA  Ack: 0xC55D8013  Win: 0xFFFF  TcpLen: 20
+[Xref => http://blog.didierstevens.com/2009/07/01/embedding-and-hiding-files-in-pdf-documents/]
+
+[**] [1:2014154:3] ET CURRENT_EVENTS DRIVEBY PDF Containing Subform with JavaScript [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+01/11-17:45:53.920733 178.208.75.222:80 -> 192.168.30.10:1040
+TCP TTL:128 TOS:0x0 ID:1103 IpLen:20 DgmLen:10090 DF
+***A**** Seq: 0xA9D5AEAA  Ack: 0xC55D8013  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2014726:59] ET POLICY Outdated Windows Flash Version IE [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:45:53.873797 192.168.30.10:1066 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:11037 IpLen:20 DgmLen:438 DF
+***A**** Seq: 0x898601E0  Ack: 0x6FC51EAC  Win: 0x3CB8  TcpLen: 20
+[Xref => http://www.adobe.com/software/flash/about/]
+
+[**] [1:2015872:5] ET CURRENT_EVENTS Blackhole request for Payload [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:45:53.873797 192.168.30.10:1066 -> 178.208.75.222:80
+TCP TTL:53 TOS:0x0 ID:11037 IpLen:20 DgmLen:438 DF
+***A**** Seq: 0x898601E0  Ack: 0x6FC51EAC  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2015861:5] ET TROJAN System Progressive Detection FakeAV (AMD) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:46:07.708675 192.168.30.10:1067 -> 103.4.225.41:80
+TCP TTL:48 TOS:0x0 ID:59835 IpLen:20 DgmLen:280 DF
+***A**** Seq: 0xEBF2CEB  Ack: 0x98B3E8F6  Win: 0x3CB8  TcpLen: 20
+[Xref => md5 76bea2200601172ebc2374e4b418c63a]
+
+[**] [1:2012811:2] ET DNS DNS Query to a .tk domain - Likely Hostile [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:46:08.596761 192.168.30.10:1030 -> 4.2.2.3:53
+UDP TTL:128 TOS:0x0 ID:1115 IpLen:20 DgmLen:64
+Len: 36
+
+[**] [1:254:4] DNS SPOOF query response with TTL of 1 min. and no authority [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:46:08.792407 4.2.2.3:53 -> 192.168.30.10:1030
+UDP TTL:51 TOS:0x0 ID:35890 IpLen:20 DgmLen:80
+Len: 52
+
+[**] [1:2015861:5] ET TROJAN System Progressive Detection FakeAV (AMD) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+01/11-17:46:08.909868 192.168.30.10:1068 -> 5.104.106.56:80
+TCP TTL:52 TOS:0x0 ID:41881 IpLen:20 DgmLen:293 DF
+***A**** Seq: 0xDC4F3F07  Ack: 0xECD0CA60  Win: 0x3CB8  TcpLen: 20
+[Xref => md5 76bea2200601172ebc2374e4b418c63a]
+
+[**] [1:2012810:8] ET POLICY HTTP Request to a *.tk domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/11-17:46:08.909868 192.168.30.10:1068 -> 5.104.106.56:80
+TCP TTL:52 TOS:0x0 ID:41881 IpLen:20 DgmLen:293 DF
+***A**** Seq: 0xDC4F3F07  Ack: 0xECD0CA60  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+01/11-17:46:09.020469 5.104.106.56:80 -> 192.168.30.10:1068
+TCP TTL:128 TOS:0x0 ID:1127 IpLen:20 DgmLen:17070 DF
+***A**** Seq: 0xECD0CA60  Ack: 0xDC4F4004  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/11-17:46:09.020469 5.104.106.56:80 -> 192.168.30.10:1068
+TCP TTL:128 TOS:0x0 ID:1127 IpLen:20 DgmLen:17070 DF
+***A**** Seq: 0xECD0CA60  Ack: 0xDC4F4004  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/18-13:12:40.163420 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/18-13:12:40.164163 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:354
+Len: 326
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/18-13:13:01.808694 192.168.51.10:1035 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:102 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/18-13:13:05.282130 192.168.51.10:1035 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:287 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/18-13:13:08.297255 192.168.51.10:1035 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:293 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+01/18-13:13:11.701149 184.72.230.192:80 -> 192.168.51.10:1039
+TCP TTL:52 TOS:0x0 ID:16997 IpLen:20 DgmLen:7655 DF
+***AP*** Seq: 0x8A97DDDC  Ack: 0x2B0701C8  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/18-13:13:11.701149 184.72.230.192:80 -> 192.168.51.10:1039
+TCP TTL:52 TOS:0x0 ID:16997 IpLen:20 DgmLen:7655 DF
+***AP*** Seq: 0x8A97DDDC  Ack: 0x2B0701C8  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/13-04:22:51.172897 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/13-04:22:51.216607 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:354
+Len: 326
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:2012811:2] ET DNS DNS Query to a .tk domain - Likely Hostile [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/13-04:23:07.427257 192.168.50.10:1029 -> 4.2.2.3:53
+UDP TTL:128 TOS:0x0 ID:61 IpLen:20 DgmLen:61
+Len: 33
+
+[**] [1:2012810:8] ET POLICY HTTP Request to a *.tk domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/13-04:23:07.665561 192.168.50.10:1030 -> 93.170.52.21:80
+TCP TTL:53 TOS:0x0 ID:63301 IpLen:20 DgmLen:327 DF
+***A**** Seq: 0x1B7694AA  Ack: 0x11E1FB77  Win: 0x1920  TcpLen: 20
+
+[**] [1:2925:3] INFO web bug 0x0 gif attempt [**]
+[Classification: Misc activity] [Priority: 3] 
+01/13-04:23:08.195591 173.194.37.3:80 -> 192.168.50.10:1031
+TCP TTL:52 TOS:0x0 ID:58376 IpLen:20 DgmLen:416
+***AP*** Seq: 0xCA332E0E  Ack: 0xB28D19A8  Win: 0xF928  TcpLen: 20
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+01/13-04:23:08.515455 208.131.138.217:80 -> 192.168.50.10:1034
+TCP TTL:128 TOS:0x0 ID:118 IpLen:20 DgmLen:16504 DF
+***A**** Seq: 0xAAD803A7  Ack: 0x2E227314  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2021076:1] ET INFO SUSPICIOUS Dotted Quad Host MZ Response [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/13-04:23:08.515455 208.131.138.217:80 -> 192.168.50.10:1034
+TCP TTL:128 TOS:0x0 ID:118 IpLen:20 DgmLen:16504 DF
+***A**** Seq: 0xAAD803A7  Ack: 0x2E227314  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/13-04:23:08.515455 208.131.138.217:80 -> 192.168.50.10:1034
+TCP TTL:128 TOS:0x0 ID:118 IpLen:20 DgmLen:16504 DF
+***A**** Seq: 0xAAD803A7  Ack: 0x2E227314  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/13-04:23:09.895891 192.168.50.10:1038 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:149 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/13-04:23:12.907267 192.168.50.10:1038 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:154 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+01/13-04:23:15.922748 192.168.50.10:1038 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:159 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+02/04-15:42:43.558039 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+02/04-15:42:43.560813 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:354
+Len: 326
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+02/04-15:43:10.151040 192.168.71.10:1062 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:395 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+02/04-15:43:13.141702 192.168.71.10:1062 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:431 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2925:3] INFO web bug 0x0 gif attempt [**]
+[Classification: Misc activity] [Priority: 3] 
+02/04-15:43:15.027952 216.59.38.124:80 -> 192.168.71.10:1084
+TCP TTL:48 TOS:0x0 ID:22054 IpLen:20 DgmLen:520 DF
+***AP*** Seq: 0x5A23B85F  Ack: 0xCC006398  Win: 0x1920  TcpLen: 20
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+02/04-15:43:16.157074 192.168.71.10:1062 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:746 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+02/04-15:43:16.882286 92.51.180.142:80 -> 192.168.71.10:1104
+TCP TTL:128 TOS:0x0 ID:856 IpLen:20 DgmLen:4180 DF
+***A**** Seq: 0x21B3C728  Ack: 0xAF17C689  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:12.582790 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:12.583450 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:354
+Len: 326
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:2011410:3] ET DNS DNS Query for Suspicious .cz.cc Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:29.232513 192.168.95.10:1029 -> 4.2.2.3:53
+UDP TTL:128 TOS:0x0 ID:70 IpLen:20 DgmLen:59
+Len: 31
+[Xref => http://sign.kaffenews.com/?p=104]
+
+[**] [1:2013380:1] ET CURRENT_EVENTS Malicious 1px iframe related to Mass Wordpress Injections [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:29.119610 89.145.93.192:80 -> 192.168.95.10:1030
+TCP TTL:128 TOS:0x0 ID:82 IpLen:20 DgmLen:10641 DF
+***AP*** Seq: 0xA33D8574  Ack: 0x86135646  Win: 0xFB98  TcpLen: 20
+
+[**] [1:2011375:5] ET POLICY HTTP Request to a *.cz.cc domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:29.599063 192.168.95.10:1033 -> 188.247.135.29:80
+TCP TTL:119 TOS:0x0 ID:427 IpLen:20 DgmLen:378 DF
+***AP*** Seq: 0x3CC9A4EB  Ack: 0x2CECB04  Win: 0x43CB  TcpLen: 20
+
+[**] [1:2011410:3] ET DNS DNS Query for Suspicious .cz.cc Domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:29.908468 192.168.95.10:1029 -> 4.2.2.3:53
+UDP TTL:128 TOS:0x0 ID:135 IpLen:20 DgmLen:59
+Len: 31
+[Xref => http://sign.kaffenews.com/?p=104]
+
+[**] [1:2013666:6] ET CURRENT_EVENTS Likely Blackhole Exploit Kit Driveby ?page Download Secondary Request [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:40:30.206672 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16339 IpLen:20 DgmLen:403 DF
+***A**** Seq: 0xB2E114A2  Ack: 0x42994AD7  Win: 0x1920  TcpLen: 20
+
+[**] [1:2011375:5] ET POLICY HTTP Request to a *.cz.cc domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:30.206672 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16339 IpLen:20 DgmLen:403 DF
+***A**** Seq: 0xB2E114A2  Ack: 0x42994AD7  Win: 0x1920  TcpLen: 20
+
+[**] [1:2014801:1] ET CURRENT_EVENTS Blackhole Try App.title Catch - May 22nd 2012 [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:40:30.423081 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:165 IpLen:20 DgmLen:16495 DF
+***A**** Seq: 0x42994AD7  Ack: 0xB2E1160D  Win: 0xFAAC  TcpLen: 20
+[Xref => http://blog.spiderlabs.com/2012/05/catch-me-if-you-can-trojan-banker-zeus-strikes-again-part-2-of-5-1.html]
+
+[**] [1:2016751:13] ET CURRENT_EVENTS RedKit/Sakura/CritX/SafePack/FlashPack applet + obfuscated URL Apr 10 2013 [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:40:30.423081 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:165 IpLen:20 DgmLen:16495 DF
+***A**** Seq: 0x42994AD7  Ack: 0xB2E1160D  Win: 0xFAAC  TcpLen: 20
+
+[**] [1:2013700:4] ET CURRENT_EVENTS Blackhole landing page with malicious Java applet [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:30.423081 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:165 IpLen:20 DgmLen:16495 DF
+***A**** Seq: 0x42994AD7  Ack: 0xB2E1160D  Win: 0xFAAC  TcpLen: 20
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+09/17-00:40:32.004152 192.168.95.10:1037 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:280 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2011375:5] ET POLICY HTTP Request to a *.cz.cc domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:32.391423 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16476 IpLen:20 DgmLen:231 DF
+***A**** Seq: 0xB2E1160D  Ack: 0x429C1E35  Win: 0x1D50  TcpLen: 20
+
+[**] [1:2012169:10] ET TROJAN Potential Blackhole Exploit Pack Binary Load Request [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:32.391423 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16476 IpLen:20 DgmLen:231 DF
+***A**** Seq: 0xB2E1160D  Ack: 0x429C1E35  Win: 0x1D50  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2010/10/java-a-gift-to-exploit-pack-makers/]
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+09/17-00:40:32.558520 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:321 IpLen:20 DgmLen:16429 DF
+***A**** Seq: 0x429C1E35  Ack: 0xB2E116CC  Win: 0xE55B  TcpLen: 20
+
+[**] [1:2014237:2] ET CURRENT_EVENTS DRIVEBY Blackhole - Payload Download - calc.exe [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:32.558520 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:321 IpLen:20 DgmLen:16429 DF
+***A**** Seq: 0x429C1E35  Ack: 0xB2E116CC  Win: 0xE55B  TcpLen: 20
+
+[**] [1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+09/17-00:40:32.558520 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:321 IpLen:20 DgmLen:16429 DF
+***A**** Seq: 0x429C1E35  Ack: 0xB2E116CC  Win: 0xE55B  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+09/17-00:40:35.210065 192.168.95.10:1037 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:620 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2013027:2] ET CURRENT_EVENTS Java/PDF Exploit kit initial landing [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:40:35.047932 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16822 IpLen:20 DgmLen:408 DF
+***A**** Seq: 0xB2E116CC  Ack: 0x42A353D1  Win: 0x2180  TcpLen: 20
+
+[**] [1:2014775:1] ET CURRENT_EVENTS Blackhole PDF Payload Request [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:40:35.047932 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16822 IpLen:20 DgmLen:408 DF
+***A**** Seq: 0xB2E116CC  Ack: 0x42A353D1  Win: 0x2180  TcpLen: 20
+
+[**] [1:2011375:5] ET POLICY HTTP Request to a *.cz.cc domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:35.047932 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16822 IpLen:20 DgmLen:408 DF
+***A**** Seq: 0xB2E116CC  Ack: 0x42A353D1  Win: 0x2180  TcpLen: 20
+
+[**] [1:2014926:2] ET INFO PDF embedded in XDP file (Possibly Malicious) [**]
+[Classification: Misc Attack] [Priority: 2] 
+09/17-00:40:35.230264 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:52 TOS:0x0 ID:16822 IpLen:20 DgmLen:1412 DF
+***A**** Seq: 0x42A353D1  Ack: 0xB2E1183C  Win: 0x2180  TcpLen: 20
+[Xref => http://blog.9bplus.com/av-bypass-for-malicious-pdfs-using-xdp]
+
+[**] [1:2011507:6] ET WEB_CLIENT PDF With Embedded File [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:35.230264 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:632 IpLen:20 DgmLen:12477 DF
+***A**** Seq: 0x42A353D1  Ack: 0xB2E1183C  Win: 0xFA27  TcpLen: 20
+[Xref => http://blog.didierstevens.com/2009/07/01/embedding-and-hiding-files-in-pdf-documents/]
+
+[**] [1:2014368:2] ET CURRENT_EVENTS Blackhole qwe123 PDF [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:40:35.230264 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:632 IpLen:20 DgmLen:12477 DF
+***A**** Seq: 0x42A353D1  Ack: 0xB2E1183C  Win: 0xFA27  TcpLen: 20
+
+[**] [1:2014154:3] ET CURRENT_EVENTS DRIVEBY PDF Containing Subform with JavaScript [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+09/17-00:40:35.230264 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:632 IpLen:20 DgmLen:12477 DF
+***A**** Seq: 0x42A353D1  Ack: 0xB2E1183C  Win: 0xFA27  TcpLen: 20
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+09/17-00:40:38.410878 192.168.95.10:1037 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:642 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2011375:5] ET POLICY HTTP Request to a *.cz.cc domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:53.638937 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16832 IpLen:20 DgmLen:231 DF
+***A**** Seq: 0xB2E1183C  Ack: 0x42A38466  Win: 0x25B0  TcpLen: 20
+
+[**] [1:2012169:10] ET TROJAN Potential Blackhole Exploit Pack Binary Load Request [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:53.638937 192.168.95.10:1034 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:16832 IpLen:20 DgmLen:231 DF
+***A**** Seq: 0xB2E1183C  Ack: 0x42A38466  Win: 0x25B0  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2010/10/java-a-gift-to-exploit-pack-makers/]
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+09/17-00:40:53.805794 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:674 IpLen:20 DgmLen:16489 DF
+***A**** Seq: 0x42A38466  Ack: 0xB2E118FB  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2014236:5] ET CURRENT_EVENTS DRIVEBY Blackhole - Payload Download - contacts.exe [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:53.805794 31.31.74.37:80 -> 192.168.95.10:1034
+TCP TTL:128 TOS:0x0 ID:674 IpLen:20 DgmLen:16489 DF
+***A**** Seq: 0x42A38466  Ack: 0xB2E118FB  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2925:3] INFO web bug 0x0 gif attempt [**]
+[Classification: Misc activity] [Priority: 3] 
+09/17-00:40:55.151186 74.125.229.68:80 -> 192.168.95.10:1042
+TCP TTL:54 TOS:0x0 ID:14173 IpLen:20 DgmLen:370
+***AP*** Seq: 0x9A980543  Ack: 0x5DD2FFC2  Win: 0x1DDD  TcpLen: 20
+
+[**] [1:2014726:59] ET POLICY Outdated Windows Flash Version IE [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+09/17-00:40:55.803527 192.168.95.10:1046 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:57016 IpLen:20 DgmLen:335 DF
+***A**** Seq: 0x5D3776FD  Ack: 0x59E050BB  Win: 0x1920  TcpLen: 20
+[Xref => http://www.adobe.com/software/flash/about/]
+
+[**] [1:2014126:1] ET CURRENT_EVENTS DRIVEBY Blackhole Likely Flash Exploit Request /field.swf [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:40:55.803527 192.168.95.10:1046 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:57016 IpLen:20 DgmLen:335 DF
+***A**** Seq: 0x5D3776FD  Ack: 0x59E050BB  Win: 0x1920  TcpLen: 20
+
+[**] [1:2011375:5] ET POLICY HTTP Request to a *.cz.cc domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+09/17-00:40:55.803527 192.168.95.10:1046 -> 31.31.74.37:80
+TCP TTL:52 TOS:0x0 ID:57016 IpLen:20 DgmLen:335 DF
+***A**** Seq: 0x5D3776FD  Ack: 0x59E050BB  Win: 0x1920  TcpLen: 20
+
+[**] [1:1042:9] WEB-IIS view source via translate header [**]
+[Classification: Access to a Potentially Vulnerable Web Application] [Priority: 2] 
+09/17-00:40:58.371183 192.168.95.10:1045 -> 89.208.34.116:80
+TCP TTL:128 TOS:0x0 ID:932 IpLen:20 DgmLen:189 DF
+***AP*** Seq: 0x7EF7B776  Ack: 0x593D9DF5  Win: 0xFFFF  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2000-0778][Xref => http://www.securityfocus.com/bid/1578][Xref => http://www.whitehats.com/info/IDS305]
+
+[**] [1:2008255:7] ET TROJAN Suspicious User-Agent (IE) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:10.365203 192.168.95.10:1054 -> 188.229.88.234:80
+TCP TTL:51 TOS:0x0 ID:34475 IpLen:20 DgmLen:164 DF
+***A**** Seq: 0xA456ECA7  Ack: 0x647DD3DC  Win: 0x16D0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2008255]
+
+[**] [1:2018010:3] ET TROJAN Suspicious UA (^IE[ds]) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:10.365203 192.168.95.10:1054 -> 188.229.88.234:80
+TCP TTL:51 TOS:0x0 ID:34475 IpLen:20 DgmLen:164 DF
+***A**** Seq: 0xA456ECA7  Ack: 0x647DD3DC  Win: 0x16D0  TcpLen: 20
+[Xref => md5 209e6701da137084c2f60c90d64505f2]
+
+[**] [1:2014083:4] ET TROJAN Trojan.Win32.A.FakeAV Reporting [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:10.365203 192.168.95.10:1054 -> 188.229.88.234:80
+TCP TTL:51 TOS:0x0 ID:34475 IpLen:20 DgmLen:164 DF
+***A**** Seq: 0xA456ECA7  Ack: 0x647DD3DC  Win: 0x16D0  TcpLen: 20
+[Xref => md5 ac0ba9e186aee9cf9889d71158485715][Xref => http://securelist.com/en/descriptions/24405309/Trojan.Win32.FakeAV.dlbc]
+
+[**] [1:2010382:7] ET TROJAN Fake AV GET [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:10.365203 192.168.95.10:1054 -> 188.229.88.234:80
+TCP TTL:51 TOS:0x0 ID:34475 IpLen:20 DgmLen:164 DF
+***A**** Seq: 0xA456ECA7  Ack: 0x647DD3DC  Win: 0x16D0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/2010382][Xref => http://threatexpert.com/report.aspx?md5=8d1b47452307259f1e191e16ed23cd35]
+
+[**] [1:2007961:8] ET MALWARE Fake Wget User-Agent (wget 3.0) - Likely Hostile [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:11.284444 192.168.95.10:1055 -> 193.105.154.25:80
+TCP TTL:52 TOS:0x0 ID:56077 IpLen:20 DgmLen:143 DF
+***A**** Seq: 0x1FF74A7  Ack: 0xBC09DB2C  Win: 0x16D0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/2007961]
+
+[**] [1:2008255:7] ET TROJAN Suspicious User-Agent (IE) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:32.772349 192.168.95.10:1056 -> 141.136.16.33:80
+TCP TTL:54 TOS:0x0 ID:34184 IpLen:20 DgmLen:166 DF
+***A**** Seq: 0x45A2C3CD  Ack: 0xA10DFDF2  Win: 0x16D0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2008255]
+
+[**] [1:2018010:3] ET TROJAN Suspicious UA (^IE[ds]) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:32.772349 192.168.95.10:1056 -> 141.136.16.33:80
+TCP TTL:54 TOS:0x0 ID:34184 IpLen:20 DgmLen:166 DF
+***A**** Seq: 0x45A2C3CD  Ack: 0xA10DFDF2  Win: 0x16D0  TcpLen: 20
+[Xref => md5 209e6701da137084c2f60c90d64505f2]
+
+[**] [1:2014083:4] ET TROJAN Trojan.Win32.A.FakeAV Reporting [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:32.772349 192.168.95.10:1056 -> 141.136.16.33:80
+TCP TTL:54 TOS:0x0 ID:34184 IpLen:20 DgmLen:166 DF
+***A**** Seq: 0x45A2C3CD  Ack: 0xA10DFDF2  Win: 0x16D0  TcpLen: 20
+[Xref => md5 ac0ba9e186aee9cf9889d71158485715][Xref => http://securelist.com/en/descriptions/24405309/Trojan.Win32.FakeAV.dlbc]
+
+[**] [1:2010382:7] ET TROJAN Fake AV GET [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:32.772349 192.168.95.10:1056 -> 141.136.16.33:80
+TCP TTL:54 TOS:0x0 ID:34184 IpLen:20 DgmLen:166 DF
+***A**** Seq: 0x45A2C3CD  Ack: 0xA10DFDF2  Win: 0x16D0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/2010382][Xref => http://threatexpert.com/report.aspx?md5=8d1b47452307259f1e191e16ed23cd35]
+
+[**] [1:2007961:8] ET MALWARE Fake Wget User-Agent (wget 3.0) - Likely Hostile [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+09/17-00:41:33.227583 192.168.95.10:1057 -> 89.46.251.133:80
+TCP TTL:54 TOS:0x0 ID:60422 IpLen:20 DgmLen:146 DF
+***A**** Seq: 0x23913F75  Ack: 0xA161964F  Win: 0x16D0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/2007961]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/14-14:12:47.824665 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/14-14:12:47.825415 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:354
+Len: 326
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:2014726:59] ET POLICY Outdated Windows Flash Version IE [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+03/14-14:13:08.939018 192.168.52.10:1038 -> 192.185.23.177:80
+TCP TTL:50 TOS:0x0 ID:40661 IpLen:20 DgmLen:436 DF
+***A**** Seq: 0x13280E6A  Ack: 0xCE96626A  Win: 0x4518  TcpLen: 20
+[Xref => http://www.adobe.com/software/flash/about/]
+
+[**] [1:2015675:2] ET INFO SimpleTDS go.php (sid) [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+03/14-14:13:09.216872 192.168.52.10:1046 -> 188.66.5.85:80
+TCP TTL:49 TOS:0x0 ID:17676 IpLen:20 DgmLen:389 DF
+***AP*** Seq: 0x381E0D94  Ack: 0x18E48FD  Win: 0x40E8  TcpLen: 20
+
+[**] [1:2925:3] INFO web bug 0x0 gif attempt [**]
+[Classification: Misc activity] [Priority: 3] 
+03/14-14:13:09.676348 173.194.127.162:80 -> 192.168.52.10:1045
+TCP TTL:56 TOS:0x0 ID:25532 IpLen:20 DgmLen:443
+***AP*** Seq: 0x8416D92E  Ack: 0x2E5F5323  Win: 0xA3B0  TcpLen: 20
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+03/14-14:13:14.804068 192.168.52.10:1053 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:1219 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2016778:4] ET INFO DNS Query to a *.pw domain - Likely Hostile [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/14-14:13:15.234783 192.168.52.10:1044 -> 4.2.2.3:53
+UDP TTL:128 TOS:0x0 ID:1221 IpLen:20 DgmLen:107
+Len: 79
+
+[**] [1:2016777:11] ET INFO HTTP Request to a *.pw domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/14-14:13:15.434355 192.168.52.10:1055 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:36694 IpLen:20 DgmLen:413 DF
+***A**** Seq: 0x1CCBA119  Ack: 0x7B068C1D  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2016777:11] ET INFO HTTP Request to a *.pw domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/14-14:13:16.978528 192.168.52.10:1056 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:37313 IpLen:20 DgmLen:522 DF
+***A**** Seq: 0xD90B09C1  Ack: 0x58EC9895  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+03/14-14:13:17.870171 192.168.52.10:1053 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:1247 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:1917:6] SCAN UPnP service discover attempt [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+03/14-14:13:21.163967 192.168.52.10:1053 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:1254 IpLen:20 DgmLen:161
+Len: 133
+
+[**] [1:2017694:4] ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013 [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+03/14-14:13:22.494672 192.168.52.10:1057 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:21256 IpLen:20 DgmLen:258 DF
+***A**** Seq: 0x164E2C85  Ack: 0x8F374DE8  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2015665:1] ET CURRENT_EVENTS NeoSploit - TDS [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+03/14-14:13:22.494672 192.168.52.10:1057 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:21256 IpLen:20 DgmLen:258 DF
+***A**** Seq: 0x164E2C85  Ack: 0x8F374DE8  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2021076:1] ET INFO SUSPICIOUS Dotted Quad Host MZ Response [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/14-14:13:22.605477 67.196.50.144:80 -> 192.168.52.10:1057
+TCP TTL:128 TOS:0x0 ID:1271 IpLen:20 DgmLen:17198 DF
+***A**** Seq: 0x8F374DE8  Ack: 0x164E2D5F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+03/14-14:13:22.605477 67.196.50.144:80 -> 192.168.52.10:1057
+TCP TTL:128 TOS:0x0 ID:1271 IpLen:20 DgmLen:17198 DF
+***A**** Seq: 0x8F374DE8  Ack: 0x164E2D5F  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:2009897:6] ET MALWARE Possible Windows executable sent when remote host claims to send html content [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+03/14-14:13:22.605477 67.196.50.144:80 -> 192.168.52.10:1057
+TCP TTL:128 TOS:0x0 ID:1271 IpLen:20 DgmLen:17198 DF
+***A**** Seq: 0x8F374DE8  Ack: 0x164E2D5F  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/2009897]
+
+[**] [1:2017694:4] ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013 [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+03/14-14:13:24.326630 192.168.52.10:1058 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:46584 IpLen:20 DgmLen:258 DF
+***A**** Seq: 0x778040B6  Ack: 0xC94493F0  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2015665:1] ET CURRENT_EVENTS NeoSploit - TDS [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+03/14-14:13:24.326630 192.168.52.10:1058 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:46584 IpLen:20 DgmLen:258 DF
+***A**** Seq: 0x778040B6  Ack: 0xC94493F0  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2017694:4] ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013 [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+03/14-14:13:24.530650 192.168.52.10:1059 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:55498 IpLen:20 DgmLen:258 DF
+***A**** Seq: 0x2895437F  Ack: 0xDD73FE1E  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2015665:1] ET CURRENT_EVENTS NeoSploit - TDS [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+03/14-14:13:24.530650 192.168.52.10:1059 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:55498 IpLen:20 DgmLen:258 DF
+***A**** Seq: 0x2895437F  Ack: 0xDD73FE1E  Win: 0x3CB8  TcpLen: 20
+
+[**] [1:2017694:4] ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013 [**]
+[Classification: A Network Trojan was Detected] [Priority: 1] 
+03/14-14:13:24.731076 192.168.52.10:1060 -> 67.196.50.144:80
+TCP TTL:57 TOS:0x0 ID:34187 IpLen:20 DgmLen:258 DF
+***A**** Seq: 0xBB770235  Ack: 0x9A83A217  Win: 0x3CB8  TcpLen: 20
+
